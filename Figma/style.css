@@ -1,0 +1,191 @@
+.image1{
+    height: 736px;
+    width: 846px;
+    left: 714px;
+    top: 78px;
+    border-radius: 0px;
+    float: right;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.news{
+    color: #FFFFFF;
+    background-color: #343434;
+    display: inline-block;
+    height: 327px;
+    width: 264px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+    padding: 30px;    
+}
+
+.questions .first{
+    color: black;
+    font-weight: 800;
+    display: block;
+    border: solid Teal 1px;
+}
+
+.menu{
+    float: right;
+    font-size: 16px;
+}
+
+h1,h2,h3{
+    font-family: 'Inter', sans-serif;
+    }
+    
+h1{
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 65px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    }
+h2{
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+h3{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+    
+p,a{
+    font-family: 'Nunito Sans', sans-serif;
+    color: Black;
+    }
+
+.copyright{
+    color: #8F8F8F;
+    text-align: center;
+    }
+
+a{
+    text-decoration: none;
+    color: black;
+    }
+
+.info{
+    color: #FFFFFF;
+    background-color: #1EC6A7;
+    border-radius: 5px;
+}
+
+.Palo,
+.ending,
+.adress{
+    color: #8F8F8F;
+}
+
+.logo{
+    height: 30px;
+    width: 150px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    opacity: 100%;    
+}
+
+
+.background{
+    background-image: url(image/Rectangle.png); 
+    height: 760px;
+    width: 1600px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+.background2{
+    background: #EDEDED;
+}
+
+.image2{
+height: 507px;
+width: 583px;
+left: 247px;
+top: 788px;
+border-radius: 0px;
+}
+
+.model{
+    background: #FFFFFF;
+    height: 360px;
+width: 335px;
+left: 355px;
+top: 0px;
+border-radius: 5px;
+padding: 30px;
+text-justify: space-between;
+}
+
+.sheet{
+height: 389px;
+width: 450px;
+left: 912px;
+top: 843px;
+border-radius: 5px;
+padding: 58px;
+border: 1px solid #E5E5E5;
+box-shadow: 0 0 10px #E5E5E5;
+
+}
+.footer{
+height: 328px;
+width: 1600px;
+left: 0px;
+top: 3965px;
+border-radius: 0px;
+padding: 60px 100px 40px 100px;
+background: #343434;
+}
+
+
+.input:focus{
+    color: red;
+}
+
+.nav:hover{
+    color: red;
+}
+
+.info:hover{
+    color: red;
+}
+
+.news:hover{
+    color: red;
+}
+
+.questions .first:hover{
+    color: red;
+}
+
+.ending:hover{
+    color: red;
+}
+
+.more:hover{
+    color: red;
+}
+
+
+.word,
+.more{
+    color: Teal;
+}
+
+.list{
+    list-style-type: none;
+}
