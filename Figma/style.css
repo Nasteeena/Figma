@@ -1,14 +1,17 @@
+
 .image1{
     height: 736px;
     width: 846px;
     left: 714px;
     top: 78px;
     border-radius: 0px;
-    float: right;
-    position: absolute;
     margin-top: 40px;
+    box-sizing: border-box;
+    position: absolute;
 }
-
+.secondnews.news{
+    background-color: #1EC6A7;
+}
 .news{
     color: #FFFFFF;
     background-color: #343434;
@@ -19,6 +22,7 @@
     top: 0px;
     border-radius: 6px;
     padding: 30px;    
+    box-sizing: border-box;
 }
 
 .questions .first{
@@ -29,7 +33,6 @@
 }
 
 .menu{
-    float: right;
     font-size: 16px;
 }
 
@@ -74,7 +77,6 @@ p,a{
 
 a{
     text-decoration: none;
-    color: black;
     }
 
 .info{
@@ -89,13 +91,25 @@ a{
     color: #8F8F8F;
 }
 
+.logotype{
+display: flex;
+justify-content: space-between;
+}
+
 .logo{
     height: 30px;
     width: 150px;
     left: 0px;
     top: 0px;
     border-radius: 0px;
-    opacity: 100%;    
+    opacity: 100%;  
+    box-sizing: border-box;
+    border-right: #343434 1px solid;
+}
+
+.Palo{
+    box-sizing: border-box;
+    padding-right: 290px;
 }
 
 
@@ -109,17 +123,26 @@ a{
 }
 .background2{
     background: #EDEDED;
+    clear: both;
 }
 
 .image2{
+    box-sizing: border-box;
 height: 507px;
 width: 583px;
-left: 247px;
-top: 788px;
+margin-left: 247px;
+margin-top: 28px;
 border-radius: 0px;
+float: left;
+
+}
+.flexcontainer{
+    display: flex;
+    justify-content: space-around;
 }
 
 .model{
+    box-sizing: border-box;
     background: #FFFFFF;
     height: 360px;
 width: 335px;
@@ -131,6 +154,7 @@ text-justify: space-between;
 }
 
 .sheet{
+    box-sizing: border-box;
 height: 389px;
 width: 450px;
 left: 912px;
@@ -139,7 +163,8 @@ border-radius: 5px;
 padding: 58px;
 border: 1px solid #E5E5E5;
 box-shadow: 0 0 10px #E5E5E5;
-
+float: right;
+margin: 29px 238px 122px 82px;
 }
 .footer{
 height: 328px;
@@ -156,16 +181,40 @@ background: #343434;
     color: red;
 }
 
+.input{
+    height: 45px;
+width: 106px;
+left: 0px;
+top: 0px;
+border-radius: 6px;
+box-sizing: border-box;
+}
+
 .nav:hover{
     color: red;
+}
+
+.nav{
+    padding-left: 56px;
 }
 
 .info:hover{
     color: red;
 }
 
+.info{
+    height: 45px;
+width: 146px;
+left: 188px;
+top: 0px;
+border-radius: 5px;
+padding: 10px;
+box-sizing: border-box;
+}
+
 .news:hover{
     color: red;
+
 }
 
 .questions .first:hover{
@@ -188,4 +237,11 @@ background: #343434;
 
 .list{
     list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.popular{
+    display: flex;
+    justify-content: space-between;
 }
