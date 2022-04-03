@@ -124,6 +124,13 @@ justify-content: space-between;
 .background2{
     background: #EDEDED;
     clear: both;
+    height: 700px;
+width: 1600px;
+left: 0px;
+top: 1354px;
+border-radius: 0px;
+padding: 80px, 0px, 80px, 0px;
+box-sizing: border-box;
 }
 
 .image2{
@@ -228,14 +235,17 @@ box-sizing: border-box;
 .more:hover{
     color: red;
 }
-
+.list{
+    list-style-type: none;
+    display: inline-block;
+}
 
 .word,
 .more{
     color: Teal;
 }
 
-.list{
+.news1{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
@@ -245,3 +255,24 @@ box-sizing: border-box;
     display: flex;
     justify-content: space-between;
 }
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 328px;
+width: 1600px;
+left: 0px;
+top: 3965px;
+border-radius: 0px;
+padding: 60px, 100px, 40px, 100px;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
